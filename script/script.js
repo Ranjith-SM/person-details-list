@@ -36,7 +36,7 @@ const render = () => {
   let person = "";
 
   for (let x of persons) {
-    person += `<div class="d-flex align-items-center justify-content-between p-2 bg-info bg-opacity-10 border border-info border-start-0 rounded-end"  >
+    person += `<div class="d-flex align-items-center justify-content-between p-2 bg-info bg-opacity-10 border border-info  rounded-end"  >
                     <p class="fs-5 m-0 col-5 text-light" >${x.name}</p>
                     <p class="fs-5 m-0 col-5 text-light">${x.number}</p>
                     <div>
